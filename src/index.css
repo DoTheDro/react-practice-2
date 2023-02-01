@@ -5,9 +5,66 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:black;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1, h2, h3, h4, h5, h6, strong, span, p, td, label {
+  color: #FFF;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table { 
+  margin: auto;
+}
+
+label {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input#task {
+  width: 230px;
+  height: 30px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+input#btn-submit {
+  background: #FFF;
+  font-size: 18px;
+  width: 120px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+input#btn-submit:hover {
+  transition: 0.5s;
+  scale: 1.15;
+}
+
+td {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+td button {
+  background: #FFF;
+  font-size: 14px;
+  width: 120px;
+  padding: 7px 12px;
+  border-radius: 3px;
+  border: none;
 }
